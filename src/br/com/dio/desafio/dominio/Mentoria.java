@@ -26,7 +26,7 @@ public class Mentoria extends Conteudo {
         StringBuilder sb = new StringBuilder();
         sb.append("Mentoria{");
         sb.append("titulo=").append(getTitulo());
-        sb.append(", descricao=").append(getDescrição());
+        sb.append(", descricao=").append(getDescricao());
         sb.append(", data=").append(data);
         sb.append('}');
         return sb.toString();

@@ -5,7 +5,7 @@ public abstract class Conteudo {
     protected static final double XP_PADRAO = 10d;
 
     private String titulo;
-    private String descrição;
+    private String descricao;
 
     public abstract double calcularXp();
 
@@ -13,16 +13,16 @@ public abstract class Conteudo {
         return titulo;
     }
 
-    public String getDescrição() {
-        return descrição;
+    public String getDescricao() {
+        return descricao;
     }
 
     public void setTitulo(String titulo) {
         this.titulo = titulo;
     }
 
-    public void setDescrição(String descrição) {
-        this.descrição = descrição;
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
     }
         
 
