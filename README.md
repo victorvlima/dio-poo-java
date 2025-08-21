@@ -60,3 +60,17 @@ code --install-extension shengchen.vscode-checkstyle
 
 # SpotBugs (detecção de bugs)
 code --install-extension spotbugs.spotbugs
+
+# Criação do arquivo de configuração do projeto no VS Code e gitignore
+O projeto foi criado seguindo o roteiro, mas no VS Code. Por falta do arquivo de configuração, ao relacionar os arquivos nas pastas corretas o Java não estava achando o caminho, mesmo estando os arquivos no local correto.
+
+Verificar/Criar Configuração do Workspace
+Criar ou editar .vscode/settings.json:
+
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.compile.nullAnalysis.mode": "automatic"
+}
+
+.gitignore foi criado conforme orientação.
